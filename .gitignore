@@ -1,1 +1,18 @@
-/target
+# Ignorar directorios de compilación de Cargo
+/target/
+
+# Ignorar archivos de bloqueo (se recomienda subirlos para binarios, 
+# pero ignorarlos si es una librería)
+# Cargo.lock
+
+# Archivos de la terminal/sistema
+.DS_Store
+*.swp
+
+# IDEs específicos (VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
+*.user
+
+# Archivos temporales de Rust
+*.rs.bk
